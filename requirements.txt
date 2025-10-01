@@ -1,0 +1,29 @@
+# Telegram Currency Bot - Requirements for Render
+# Core HTTP libraries
+requests>=2.31.0
+urllib3>=2.0.0
+
+# JSON handling (built-in, but explicit for clarity)
+# json - built-in Python module
+
+# Date and time handling (built-in)
+# datetime - built-in Python module
+
+# System libraries (built-in)
+# os - built-in Python module
+# sys - built-in Python module
+# time - built-in Python module
+
+# Web server support (for webhook mode)
+gunicorn>=21.2.0
+
+# Security and certificates
+certifi>=2023.7.22
+charset-normalizer>=3.2.0
+idna>=3.4
+
+# Optional: For better JSON handling
+simplejson>=3.19.0
+
+# Optional: For enhanced HTTP features
+httpx>=0.24.0
